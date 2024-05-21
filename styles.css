@@ -1,0 +1,18 @@
+.container {
+  display: grid;
+  justify-items: center;
+  grid-gap: 50px;
+}
+
+#lottoNums {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 20px;
+}
+
+.lotto {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  /* border값은 할당된 공간 보기 쉬우라고 넣어둔 값 마음대로 수정하세요! */
+}
