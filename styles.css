@@ -22,29 +22,39 @@
   align-self: center;
 }
 
-#lottoNums div:nth-child(1){
+#lottoNums div:nth-child(1) {
   background-color: red;
 }
-#lottoNums div:nth-child(2){
+#lottoNums div:nth-child(2) {
   background-color: orange;
 }
-#lottoNums div:nth-child(3){
+#lottoNums div:nth-child(3) {
   background-color: yellow;
 }
-#lottoNums div:nth-child(4){
+#lottoNums div:nth-child(4) {
   background-color: green;
 }
-#lottoNums div:nth-child(5){
+#lottoNums div:nth-child(5) {
   background-color: blue;
 }
-#lottoNums div:nth-child(6){
+#lottoNums div:nth-child(6) {
   background-color: rgb(40, 1, 87);
 }
-#lottoNums div:nth-child(8){
+#lottoNums div:nth-child(8) {
   background-color: purple;
 }
 
 img {
   width: inherit;
   height: inherit;
+}
+
+#lottoText {
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
+
+#lottoText,
+#bonusText {
+  text-align: center;
 }
